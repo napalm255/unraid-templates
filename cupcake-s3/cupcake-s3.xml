@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>cupcake-s3</Name>
+  <Repository>ghcr.io/napalm255/cupcake-s3:latest</Repository>
+  <Registry>https://github.com/napalm255/cupcake-s3/pkgs/container/cupcake-s3</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/napalm255/cupcake-s3</Project>
+  <Overview/>
+  <Category>Backup: Cloud: HomeAutomation: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3124]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/napalm255/cupcake-s3/refs/heads/main/cupcake/img/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1741230982</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Port 1" Target="3124" Default="3124" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3124</Config>
+  <Config Name="Host Path 1" Target="/mnt/media" Default="" Mode="ro" Description="Media mount for container access" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/media/</Config>
+  <Config Name="creds" Target="/root/.aws" Default="/mnt/user/appdata/cupcake-s3/creds" Mode="rw" Description="Profiles for AWS Access Keys" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/cupcake-s3/creds</Config>
+  <Config Name="cron" Target="/etc/cron.d" Default="/mnt/user/appdata/cupcake-s3/cron" Mode="rw" Description="Cron jobs" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/cupcake-s3/cron</Config>
+  <TailscaleStateDir/>
+</Container>
