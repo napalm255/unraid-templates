@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/napalm255/cupcake-s3</Project>
-  <Overview/>
+  <Overview>Craving perfectly timed S3 backups? Cupcake S3's web interface lets you bake up cron schedules with zero fuss. Seriously, it's easier than frosting a cupcake.</Overview>
   <Category>Backup: Cloud: HomeAutomation: Tools:</Category>
   <WebUI>http://[IP]:[PORT:3124]</WebUI>
   <TemplateURL/>
@@ -17,13 +17,14 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1741230982</DateInstalled>
+  <DateInstalled>1741643126</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="Host Port 1" Target="3124" Default="3124" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3124</Config>
-  <Config Name="Host Path 1" Target="/mnt/media" Default="" Mode="ro" Description="Media mount for container access" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/media/</Config>
-  <Config Name="creds" Target="/root/.aws" Default="/mnt/user/appdata/cupcake-s3/creds" Mode="rw" Description="Profiles for AWS Access Keys" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/cupcake-s3/creds</Config>
-  <Config Name="cron" Target="/etc/cron.d" Default="/mnt/user/appdata/cupcake-s3/cron" Mode="rw" Description="Cron jobs" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/cupcake-s3/cron</Config>
+  <Config Name="Host Path 1" Target="/mnt/media" Default="" Mode="ro" Description="Media mount for container access" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="logs" Target="/var/log/cupcake" Default="/mnt/user/appdata/cupcake-s3/logs" Mode="rw" Description="Logs and Stats" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/cupcake-s3/logs</Config>
+  <Config Name="profiles" Target="/root/.aws" Default="/mnt/user/appdata/cupcake-s3/profiles" Mode="rw" Description="Profiles for AWS Access Keys" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/cupcake-s3/profiles</Config>
+  <Config Name="jobs" Target="/etc/cron.d" Default="/mnt/user/appdata/cupcake-s3/jobs" Mode="rw" Description="Cron jobs" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/cupcake-s3/jobs</Config>
   <TailscaleStateDir/>
 </Container>
