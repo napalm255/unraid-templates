@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/188180-support-napalm255-cupcake-s3/</Support>
   <Project>https://github.com/napalm255/cupcake-s3</Project>
   <Overview>Craving perfectly timed S3 backups? Cupcake S3's web interface lets you bake up cron schedules with zero fuss. Seriously, it's easier than frosting a cupcake.</Overview>
   <Category>Backup: Cloud: HomeAutomation: Tools:</Category>
