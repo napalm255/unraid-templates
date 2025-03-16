@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>cupcake-s3</Name>
+  <Name>CupcakeS3</Name>
   <Repository>ghcr.io/napalm255/cupcake-s3:latest</Repository>
   <Registry>https://github.com/napalm255/cupcake-s3/pkgs/container/cupcake-s3</Registry>
   <Network>bridge</Network>
